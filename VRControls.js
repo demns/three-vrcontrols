@@ -3,7 +3,7 @@
  * @author mrdoob / http://mrdoob.com
  */
 module.exports = function (THREE) {
-    THREE.VRControls = function (object, onError) {
+    return function (object, onError) {
 
         var scope = this;
 
